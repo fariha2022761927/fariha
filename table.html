@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Table and CSS</title>
+    </head>
+    <style>
+        table, td, tr, th
+            {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        td
+            {
+                text-align: center;
+            }
+
+
+    </style>
+
+    <body>
+
+        <h1>Types of tables</h1>
+
+        <table style="width: 70%;" align="center">
+            <caption>Table 1: This is sample table</caption>
+            <tr>
+                <td>Name</td>
+                <td>Staff ID</td>
+                <td>Group</td>
+            </tr>
+            <tr>
+                <td>Fariha</td>
+                <td>2022761927</td>
+                <td>IM110A</td>
+            </tr>
+            <tr>
+                <td>Fariha Najwa</td>
+                <td>2022761927</td>
+                <td>IM110A</td>
+            </tr>
+        </table>
+
+        <table>
+
+        <br>
+        <table style="width: 70%;" align="center">
+            <caption>Table 2: Table with column span</caption>
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Favourite Subjects</th>
+            </tr>
+            <tr>
+                <td>Fariha</td>
+                <td>Records Management</td>
+                <td>Archives Management</td>
+            </tr>
+            <tr>
+                <td>Fariha Najwa</td>
+                <td>System Management</td>
+                <td>Content Management</td>
+            </tr>
+            <tr>
+                <td>Fariha</td>
+                <td colspan="2">Cataloging</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table style="width: 70%;" align="center" cellspacing="7" cellpadding="4">
+        <caption>Table 3: Table with row span</caption>
+        <tr>
+            <th>Name</th>
+            <td>Fariha</td>
+        </tr>
+        <tr>
+            <th row span="2"> Email</th>
+            <td>farihanajwa03@gmail.com</td>
+        </tr>
+        <tr>
+            <td>2022761927@student.uitm.my</td>
+        </tr>
+    </table>
+    </body>
+
+</html>
